@@ -1,0 +1,10 @@
+{
+  "name": "typescript",
+  "displayName": "typescript",
+  "expo": {
+    "name": "typescript",
+    "slug": "typescript",
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"]
+  }
+}
