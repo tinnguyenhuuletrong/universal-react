@@ -1,6 +1,8 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import Button from "../component/Button";
+import Logo from "../assets/logo.native";
+
+import Button from "../components/Button";
 
 export default function App() {
   return (
@@ -9,6 +11,7 @@ export default function App() {
         <Text>Left</Text>
       </View>
       <View style={styles.right}>
+        <Logo width={100} height={100} />
         <Text>Open up App.tsx to start working on your app! FFFFF</Text>
         <Button />
       </View>
